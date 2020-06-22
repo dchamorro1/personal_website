@@ -49,6 +49,57 @@ a.nav-link {
 /* End of Navigation */
 
 
+/*Vid*/
+.sectionvid {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.sectionvid h1{
+    text-align: center;
+    font-size: 6rem;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin: 15px ;
+}
+
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.color-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    width:100%;
+    height: 100vh;
+    opacity: 0.001;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .head {
     color: white;
