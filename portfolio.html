@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="visuals.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="myJS.js"></script>
+
+    <title>Daniel Chamorro</title>
+</head>
+
+
+<body>
+    <nav class="staySame navbar navbar-expand-lg navbar-light shadow bg-primary">
+
+        <a class="navbar-brand" href="index.html">DC</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav"
+            aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="icon-bar"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="qualifications.html">Qualifications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="service.html">Service</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="staySame whiteText titleBackground has-bg-img bg-purple bg-blend-screen jumbotron">
+        <h1>Portfolio</h1>
+        <p>A collection of some of my favorite projects that I have worked on</p>
+    </div>
+
+    <div class="container">
+        <!--Nordstrom-->
+        <h3 class="titleOnRight">
+            Nordstrom Code Generation
+        </h3>
+        <div class="row">
+            <div class="alignVert myPic col-lg-4 text-center">
+                <img class="img-fluid rounded" src="pics/nord.jpg">
+            </div>
+
+            <div class="alignVert col-lg-8 text-justify">
+                During the summer of 2021 I spent 10 weeks developing a java code generation tool for Nordstrom
+                engineers to use that improved productivity by 525%. During this time I used a variety of technologies
+                such as Git, Agile, Full Stack, Kubernetes, Java, Maven, Gradle, GitLab and many more.
+            </div>
+        </div>
+
+        <br>
+
+        <!--Face Recognition Hackathon Project-->
+        <h3>
+            Face Recognition Hackathon Project
+        </h3>
+
+        <div class="row no-gutters">
+            <div class="alignVert col-md-8">
+                <div class="card-body">
+                    <p class="card-text text-justify">
+                        During a Hackathon, three teammates and I created a tool that is able to overlay glasses and a
+                        mustache
+                        over any provided photo through a UI to disguide the person behind the photo. We did this by
+                        using Python for the backend and using React for the website front-end. </p>
+                    <a role="button" class="staySame btn btn-primary" href="https://devpost.com/software/howdyhack2020-uri2g5"
+                        target="_blank">
+                        Devpost Project
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 myPic my-auto">
+                <img class="staySame img-fluid rounded" src="pics/face.jpg">
+            </div>
+        </div>
+
+        <br>
+
+
+        <!--This Website-->
+        <h3 class="titleOnRight">
+            Personal Website
+        </h3>
+
+        <div class="row no-gutters">
+            <div class="col-md-4 myPic my-auto">
+                <img class="img-fluid rounded" src="pics/html.png">
+            </div>
+            <div class="alignVert col-md-8">
+                <div class="card-body">
+                    <p class="card-text text-justify">
+                        Another one of my projects is this website! This website was designed with Bootstrap to be
+                        responsive and intuitive to use. It even has the capability to be compatible on mobile beecause
+                        of how the NavBar can shrink down through the use of a hamburger menu. </p>
+                    <a role="button" class="staySame btn btn-primary"
+                        href="https://github.tamu.edu/dchamorro/CSCE_315_Project_1" target="_blank">
+                        GitHub Repository
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="centerButton">
+        <button type="button" onclick="darkModeFunc()" class="btn btn-warning">Dark Mode</button>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="staySame page-footers pecial-color-dark pt-4">
+        <!-- Social buttons -->
+        <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/daniel-chamorro-847618199/" target="_blank" rel="noopener"
+                    class="btn-floating btn-fb mx-1">
+                    <i class="fa fa-linkedin-square"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://github.tamu.edu/dchamorro/" target="_blank" rel="noopener"
+                    class="btn-floating btn-tw mx-1">
+                    <i class="fa fa-github-square"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=dchamorro@tamu.edu" target="_blank"
+                    rel="noopener" class="btn-floating btn-gplus mx-1">
+                    <i class="fa fa-envelope-square"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
